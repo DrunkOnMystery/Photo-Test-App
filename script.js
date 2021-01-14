@@ -45,7 +45,7 @@ for (i = 0; i < 20; i++) {
     var img = $("<img>");
 
 //Creating temporary variables for the application
-    var imageURL = data.results[i].urls.regular;
+    var imageURL = data.results[i].urls.full;
     console.log(imageURL);
     $(img).attr("src", imageURL);
 

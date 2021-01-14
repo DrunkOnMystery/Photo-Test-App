@@ -1,3 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueToad API Test</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>::insert title here::</h1>
+        <form id="searchButton">
+            <button class="btn col s1" id="searchButton" type="submit" name="action"><i class="fa fa-search"
+                aria-hidden="true"></i></button>
+        <input id="searchInput" type="text" name="searchbar" placeholder="What kind of picture do you want to search for?"
+            class="validate col s11">
+        </form>
+    </header>
+    <main>
+        <section class="section section-search blue darken-4 white-text center scrollspy">
+            <div class="container" id="searchResults"></div>
+        </section>
+    </main>
+
+<script src="assets/script.js"></script>
+</body>
 </html>

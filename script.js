@@ -33,8 +33,6 @@ $.ajax(settings).done(function(data) {
     $("#searchResults").empty();
     console.log(data);
 
-//     localStorage.setItem("storedSearch", response);
-
 for (i = 0; i < 20; i++) {
 
 //Creating divs for the cards to be put into
@@ -51,14 +49,10 @@ for (i = 0; i < 20; i++) {
 
 // //Append new outputs to created divs
     imageDiv.append(img);
-//     zipCodeDiv.append(addressOut);
-//     zipCodeDiv.append(phoneOut);
-//     zipCodeDiv.append(priceOut);
-//     zipCodeDiv.append(foodTypeOut);
 
     imageCardDiv.append(imageDiv);
 
     $("#searchResults").prepend(imageCardDiv);
 
-// }
+
 }})}})
